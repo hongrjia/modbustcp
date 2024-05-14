@@ -1,0 +1,10 @@
+Package: esccu-modbus-tcp-slave
+Version: 1.0.3
+Architecture: arm64
+Maintainer: esccu <esccu-tech@china-gold.com>
+Depends: 
+Section:esccu 
+Priority: extra
+Multi-Arch: same
+Homepage: http://www.china-gold.com
+Description: ESCCU modbus 标准版本

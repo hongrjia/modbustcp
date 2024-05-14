@@ -1,0 +1,21 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/tmp.NCrZMvJzrc
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMAKE_SOURCE_DIR=/tmp/tmp.NCrZMvJzrc
+include dir: /tmp/tmp.NCrZMvJzrc/include
+sourcefile=/tmp/tmp.NCrZMvJzrc/src/slaveManager.cpp/tmp/tmp.NCrZMvJzrc/src/cconfig.cpp/tmp/tmp.NCrZMvJzrc/src/jsonparser.cpp/tmp/tmp.NCrZMvJzrc/src/reg_all.cpp/tmp/tmp.NCrZMvJzrc/src/reg_info.cpp/tmp/tmp.NCrZMvJzrc/src/slavedev.cpp/tmp/tmp.NCrZMvJzrc/src/modbusServer.cpp/tmp/tmp.NCrZMvJzrc/src/reg_info_cell.cpp/tmp/tmp.NCrZMvJzrc/src/soe.cpp/tmp/tmp.NCrZMvJzrc/src/misc.cpp/tmp/tmp.NCrZMvJzrc/src/reg_num.cpp/tmp/tmp.NCrZMvJzrc/src/util.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.NCrZMvJzrc/cmake-build-debug-

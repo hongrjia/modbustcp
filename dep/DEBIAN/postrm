@@ -1,0 +1,18 @@
+#!/bin/sh
+echo "安装后执行..."
+
+case "$1" in
+    upgrade)
+        ;;
+    purge|remove)
+        #删除文件操作
+        
+        ;;
+    *)
+        ;;
+esac
+
+exit 0
+
+#purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear
+

@@ -1,0 +1,19 @@
+#!/bin/sh
+echo "卸载前执行..."
+case "$1" in
+    remove|upgrade|deconfigure)
+    #卸载前执行kill操作
+    rm -Rf /app/aarch64/lems/service/modbusTcp/modbusTcpSrv
+    #rm /app/aarch64/lems/service/protectSrv/config/protectSrv_esmu.json
+    
+    ;;
+    failed-upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

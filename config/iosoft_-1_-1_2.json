@@ -1,0 +1,201 @@
+{
+    "fmtVer": "V1.0.0",
+    "serviceId": "SJ202302180",
+    "slave_info": [
+        {
+            "array": -1,
+            "cluster": -1,
+            "coil_reg_info": [
+            ],
+            "dev": 2,
+            "dev_name": "iosoft",
+            "discrete_input_reg_info": [
+                {
+                    "addr": 55242,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_di_get_di_ext_di0",
+                    "precision": 1,
+                    "set": "iosoft_di_set_di_ext_di0"
+                },
+                {
+                    "addr": 55243,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_di_get_di_ext_di1",
+                    "precision": 1,
+                    "set": "iosoft_di_set_di_ext_di1"
+                },
+                {
+                    "addr": 55244,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_di_get_di_ext_di2",
+                    "precision": 1,
+                    "set": "iosoft_di_set_di_ext_di2"
+                },
+                {
+                    "addr": 55245,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_di_get_di_ext_di3",
+                    "precision": 1,
+                    "set": "iosoft_di_set_di_ext_di3"
+                },
+                {
+                    "addr": 55246,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_di_get_di_ext_di4",
+                    "precision": 1,
+                    "set": "iosoft_di_set_di_ext_di4"
+                },
+                {
+                    "addr": 55247,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_di_get_di_ext_di5",
+                    "precision": 1,
+                    "set": "iosoft_di_set_di_ext_di5"
+                },
+                {
+                    "addr": 55248,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_di_get_di_ext_di6",
+                    "precision": 1,
+                    "set": "iosoft_di_set_di_ext_di6"
+                }
+            ],
+            "hold_reg_info": [
+                {
+                    "addr": 55026,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_param_get_yk_ext_do0",
+                    "precision": 1,
+                    "set": "iosoft_param_set_yk_ext_do0"
+                },
+                {
+                    "addr": 55027,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_param_get_yk_ext_do1",
+                    "precision": 1,
+                    "set": "iosoft_param_set_yk_ext_do1"
+                },
+                {
+                    "addr": 55028,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_param_get_yk_ext_do2",
+                    "precision": 1,
+                    "set": "iosoft_param_set_yk_ext_do2"
+                },
+                {
+                    "addr": 55029,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_param_get_yk_ext_do3",
+                    "precision": 1,
+                    "set": "iosoft_param_set_yk_ext_do3"
+                }
+            ],
+            "input_reg_info": [
+                {
+                    "addr": 55327,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_ai_get_yc_ext_di0_port",
+                    "precision": 1,
+                    "set": "iosoft_ai_set_yc_ext_di0_port"
+                },
+                {
+                    "addr": 55328,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_ai_get_yc_ext_di1_port",
+                    "precision": 1,
+                    "set": "iosoft_ai_set_yc_ext_di1_port"
+                },
+                {
+                    "addr": 55329,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_ai_get_yc_ext_di2_port",
+                    "precision": 1,
+                    "set": "iosoft_ai_set_yc_ext_di2_port"
+                },
+                {
+                    "addr": 55330,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_ai_get_yc_ext_di3_port",
+                    "precision": 1,
+                    "set": "iosoft_ai_set_yc_ext_di3_port"
+                },
+                {
+                    "addr": 55331,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_ai_get_yc_ext_di4_port",
+                    "precision": 1,
+                    "set": "iosoft_ai_set_yc_ext_di4_port"
+                },
+                {
+                    "addr": 55332,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_ai_get_yc_ext_di5_port",
+                    "precision": 1,
+                    "set": "iosoft_ai_set_yc_ext_di5_port"
+                },
+                {
+                    "addr": 55333,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "iosoft_ai_get_yc_ext_di6_port",
+                    "precision": 1,
+                    "set": "iosoft_ai_set_yc_ext_di6_port"
+                }
+            ],
+            "slave_id": 1
+        }
+    ]
+}

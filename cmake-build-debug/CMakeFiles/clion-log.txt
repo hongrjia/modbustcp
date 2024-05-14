@@ -1,0 +1,7 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888
+CMAKE_SOURCE_DIR=/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888
+include dir: /home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/include
+sourcefile=/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/reg_num.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/modbusServer.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/reg_info_cell.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/slaveManager.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/misc.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/cconfig.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/reg_info.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/jsonparser.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/reg_all.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/util.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/soe.cpp/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/src/slavedev.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/cmake-build-debug

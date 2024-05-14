@@ -1,0 +1,87 @@
+{
+    "fmtVer": "V1.0.0",
+    "serviceId": "SJ202302180",
+    "slave_info": [
+        {
+            "array": 2,
+            "cluster": -1,
+            "coil_reg_info": [
+            ],
+            "dev": 0,
+            "dev_name": "cluster",
+            "discrete_input_reg_info": [
+            ],
+            "hold_reg_info": [
+            ],
+            "input_reg_info": [
+                {
+                    "addr": 8600,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type1": "uint16_t",
+                    "dataapi_type2": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_cel_ai_get_celtem",
+                    "param": [
+                        {
+                            "bais": 0,
+                            "callType": "param",
+                            "dataapi_type1": "uint16_t",
+                            "dataapi_type2": "uint16_t",
+                            "get": "cluster_param_get_clutem_count",
+                            "precision": 1,
+                            "set": "cluster_param_set_clutem_count"
+                        }
+                    ],
+                    "precision": 1,
+                    "set": "cluster_cel_ai_set_celtem"
+                },
+                {
+                    "addr": 9000,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type1": "uint16_t",
+                    "dataapi_type2": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_cel_ai_get_celvol",
+                    "param": [
+                        {
+                            "bais": 0,
+                            "callType": "param",
+                            "dataapi_type1": "uint16_t",
+                            "dataapi_type2": "uint16_t",
+                            "get": "cluster_param_get_clucel_count",
+                            "precision": 1,
+                            "set": "cluster_param_set_clucel_count"
+                        }
+                    ],
+                    "precision": 1000,
+                    "set": "cluster_cel_ai_set_celvol"
+                },
+                {
+                    "addr": 9400,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type1": "uint16_t",
+                    "dataapi_type2": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_cel_ai_get_celsoc",
+                    "param": [
+                        {
+                            "bais": 0,
+                            "callType": "param",
+                            "dataapi_type1": "uint16_t",
+                            "dataapi_type2": "uint16_t",
+                            "get": "cluster_param_get_clucel_count",
+                            "precision": 1,
+                            "set": "cluster_param_set_clucel_count"
+                        }
+                    ],
+                    "precision": 1,
+                    "set": "cluster_cel_ai_set_celsoc"
+                }
+            ],
+            "slave_id": 1
+        }
+    ]
+}

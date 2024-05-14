@@ -1,0 +1,10 @@
+Package: esccu-modbus-esmu
+Version: 1.0.1
+Architecture: arm64
+Maintainer: esccu <esccu-tech@china-gold.com>
+Depends: 
+Section:esccu 
+Priority: extra
+Multi-Arch: same
+Homepage: http://www.china-gold.com
+Description: ESCCU modbus 标准版本

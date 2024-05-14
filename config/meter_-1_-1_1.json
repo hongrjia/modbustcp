@@ -1,0 +1,251 @@
+{
+    "fmtVer": "V1.0.0",
+    "serviceId": "SJ202302180",
+    "slave_info": [
+        {
+            "array": -1,
+            "cluster": -1,
+            "coil_reg_info": [
+            ],
+            "dev": 1,
+            "dev_name": "meter",
+            "discrete_input_reg_info": [
+            ],
+            "hold_reg_info": [
+            ],
+            "input_reg_info": [
+                {
+                    "addr": 55033,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_a_vol",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_a_vol"
+                },
+                {
+                    "addr": 55035,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_b_vol",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_b_vol"
+                },
+                {
+                    "addr": 55037,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_c_vol",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_c_vol"
+                },
+                {
+                    "addr": 55039,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_a_cur",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_a_cur"
+                },
+                {
+                    "addr": 55041,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_b_cur",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_b_cur"
+                },
+                {
+                    "addr": 55043,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_c_cur",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_c_cur"
+                },
+                {
+                    "addr": 55045,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_f",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_f"
+                },
+                {
+                    "addr": 55047,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_a_p",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_a_p"
+                },
+                {
+                    "addr": 55049,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_b_p",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_b_p"
+                },
+                {
+                    "addr": 55051,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_c_p",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_c_p"
+                },
+                {
+                    "addr": 55053,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_tot_p",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_tot_p"
+                },
+                {
+                    "addr": 55055,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_a_q",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_a_q"
+                },
+                {
+                    "addr": 55057,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_b_q",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_b_q"
+                },
+                {
+                    "addr": 55059,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_c_q",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_c_q"
+                },
+                {
+                    "addr": 55061,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_tot_q",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_tot_q"
+                },
+                {
+                    "addr": 55063,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_a_s",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_a_s"
+                },
+                {
+                    "addr": 55065,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_b_s",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_b_s"
+                },
+                {
+                    "addr": 55067,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_c_s",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_c_s"
+                },
+                {
+                    "addr": 55069,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_tot_s",
+                    "precision": 1000,
+                    "set": "meter_ai_set_meter_tot_s"
+                },
+                {
+                    "addr": 55071,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_a_pf",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_a_pf"
+                },
+                {
+                    "addr": 55073,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_b_pf",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_b_pf"
+                },
+                {
+                    "addr": 55075,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_c_pf",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_c_pf"
+                },
+                {
+                    "addr": 55077,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "float",
+                    "get": "meter_ai_get_meter_tot_pf",
+                    "precision": 1,
+                    "set": "meter_ai_set_meter_tot_pf"
+                }
+            ],
+            "slave_id": 1
+        }
+    ]
+}

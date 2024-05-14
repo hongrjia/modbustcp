@@ -1,0 +1,151 @@
+{
+    "fmtVer": "V1.0.0",
+    "serviceId": "SJ202302180",
+    "slave_info": [
+        {
+            "array": -1,
+            "cluster": -1,
+            "coil_reg_info": [
+            ],
+            "dev": 3,
+            "dev_name": "fire",
+            "discrete_input_reg_info": [
+            ],
+            "hold_reg_info": [
+                {
+                    "addr": 55030,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_param_get_reset_addr",
+                    "precision": 1,
+                    "set": "fire_param_set_reset_addr"
+                }
+            ],
+            "input_reg_info": [
+                {
+                    "addr": 55382,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_detector_state1",
+                    "precision": 1,
+                    "set": "fire_ai_set_detector_state1"
+                },
+                {
+                    "addr": 55383,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_smo_sen_ata",
+                    "precision": 1,
+                    "set": "fire_ai_set_smo_sen_ata"
+                },
+                {
+                    "addr": 55384,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_tmp_sens1",
+                    "precision": 1,
+                    "set": "fire_ai_set_tmp_sens1"
+                },
+                {
+                    "addr": 55385,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_car_mon_sta",
+                    "precision": 1,
+                    "set": "fire_ai_set_car_mon_sta"
+                },
+                {
+                    "addr": 55386,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_hyd_sta",
+                    "precision": 1,
+                    "set": "fire_ai_set_hyd_sta"
+                },
+                {
+                    "addr": 55387,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_voc_sta",
+                    "precision": 1,
+                    "set": "fire_ai_set_voc_sta"
+                },
+                {
+                    "addr": 55388,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_gas_sta",
+                    "precision": 1,
+                    "set": "fire_ai_set_gas_sta"
+                },
+                {
+                    "addr": 55389,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "fire_ai_get_fire_temp1",
+                    "precision": 10,
+                    "set": "fire_ai_set_fire_temp1"
+                },
+                {
+                    "addr": 55390,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_fire_co",
+                    "precision": 1,
+                    "set": "fire_ai_set_fire_co"
+                },
+                {
+                    "addr": 55391,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_fire_h2",
+                    "precision": 1,
+                    "set": "fire_ai_set_fire_h2"
+                },
+                {
+                    "addr": 55392,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_voc_con",
+                    "precision": 1,
+                    "set": "fire_ai_set_voc_con"
+                },
+                {
+                    "addr": 55393,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "fire_ai_get_com_gas_con",
+                    "precision": 1,
+                    "set": "fire_ai_set_com_gas_con"
+                }
+            ],
+            "slave_id": 1
+        }
+    ]
+}

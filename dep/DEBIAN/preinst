@@ -1,0 +1,50 @@
+#!/bin/sh
+echo "安装前执行..."
+
+case "$1" in
+    install|upgrade)
+    #安装时需要kill已经运行的进程
+    killall /app/aarch64/lems/service/modbusTcp/modbusTcpSrv
+
+    dir_path="/app/aarch64/lems/service/modbusTcp"
+    if [ ! -d "$dir_path" ]; then
+        mkdir -p "$dir_path"
+        echo "文件夹已创建: $dir_path"
+    else
+        echo "文件夹已存在: $dir_path"
+    fi
+    
+    
+    cfg_path="/app/aarch64/lems/config/modbusTcp_conf"
+
+    # 判断文件夹是否存在
+    if [ ! -d "$cfg_path" ]; then
+        mkdir -p "$cfg_path"
+        echo "文件夹已创建: $cfg_path"
+    else
+        echo "文件夹已存在: $cfg_path"
+    fi
+
+
+    source_path="/app/aarch64/lems/config/modbusTcp_conf"
+    link_path="/app/aarch64/lems/service/modbusTcp/config"
+
+    if [ ! -L "$link_path" ]; then
+        ln -s "$source_path" "$link_path"
+        echo "软链接已创建: $link_path -> $source_path"
+    else
+        echo "软链接已存在: $link_path"
+    fi
+    
+    ;;
+
+    abort-upgrade)
+    ;;
+
+    *)
+        echo "preinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

@@ -1,0 +1,9 @@
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64/app/aarch64/lems/service/modbusTcp/modbusTcpSrv
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64//DEBIAN/control
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64//DEBIAN/changelog
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64//DEBIAN/postinst
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64//DEBIAN/prerm
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64//DEBIAN/preinst
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64//DEBIAN/postrm
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64/app/aarch64/lems/service/modbusTcp/modbus.conf
+/home/huanglingjie/MyProject/tmp/tmp.pfEV66cmZr88888/out-aarch64/app/aarch64/lems/service/modbusTcp/modbus_log.conf

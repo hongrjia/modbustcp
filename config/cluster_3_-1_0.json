@@ -1,0 +1,801 @@
+{
+    "fmtVer": "V1.0.0",
+    "serviceId": "SJ202302180",
+    "slave_info": [
+        {
+            "array": 3,
+            "cluster": -1,
+            "coil_reg_info": [
+            ],
+            "dev": 0,
+            "dev_name": "cluster",
+            "discrete_input_reg_info": [
+                {
+                    "addr": 4500,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clunegres_low3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clunegres_low3"
+                },
+                {
+                    "addr": 4501,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clunegres_low2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clunegres_low2"
+                },
+                {
+                    "addr": 4502,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clunegres_low1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clunegres_low1"
+                },
+                {
+                    "addr": 4503,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clusoc_low3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clusoc_low3"
+                },
+                {
+                    "addr": 4504,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clusoc_low2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clusoc_low2"
+                },
+                {
+                    "addr": 4505,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clusoc_low1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clusoc_low1"
+                },
+                {
+                    "addr": 4506,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluvol_up3",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluvol_up3"
+                },
+                {
+                    "addr": 4507,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluvol_up2",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluvol_up2"
+                },
+                {
+                    "addr": 4508,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluvol_up1",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluvol_up1"
+                },
+                {
+                    "addr": 4509,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluvol_low3",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluvol_low3"
+                },
+                {
+                    "addr": 4510,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluvol_low2",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluvol_low2"
+                },
+                {
+                    "addr": 4511,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluvol_low1",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluvol_low1"
+                },
+                {
+                    "addr": 4512,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluchgcur_up3",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluchgcur_up3"
+                },
+                {
+                    "addr": 4513,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluchgcur_up2",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluchgcur_up2"
+                },
+                {
+                    "addr": 4514,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluchgcur_up1",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluchgcur_up1"
+                },
+                {
+                    "addr": 4515,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cludiscur_up3",
+                    "precision": 1,
+                    "set": "cluster_di_set_cludiscur_up3"
+                },
+                {
+                    "addr": 4516,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cludiscur_up2",
+                    "precision": 1,
+                    "set": "cluster_di_set_cludiscur_up2"
+                },
+                {
+                    "addr": 4517,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cludiscur_up1",
+                    "precision": 1,
+                    "set": "cluster_di_set_cludiscur_up1"
+                },
+                {
+                    "addr": 4518,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_up3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_up3"
+                },
+                {
+                    "addr": 4519,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_up2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_up2"
+                },
+                {
+                    "addr": 4520,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_up1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_up1"
+                },
+                {
+                    "addr": 4521,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_low3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_low3"
+                },
+                {
+                    "addr": 4522,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_low2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_low2"
+                },
+                {
+                    "addr": 4523,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_low1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_low1"
+                },
+                {
+                    "addr": 4524,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelchgtem_up3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelchgtem_up3"
+                },
+                {
+                    "addr": 4525,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelchgtem_up2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelchgtem_up2"
+                },
+                {
+                    "addr": 4526,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelchgtem_up1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelchgtem_up1"
+                },
+                {
+                    "addr": 4527,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelchgtem_low3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelchgtem_low3"
+                },
+                {
+                    "addr": 4528,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelchgtem_low2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelchgtem_low2"
+                },
+                {
+                    "addr": 4529,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelchgtem_low1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelchgtem_low1"
+                },
+                {
+                    "addr": 4530,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceldistem_up3",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceldistem_up3"
+                },
+                {
+                    "addr": 4531,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceldistem_up2",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceldistem_up2"
+                },
+                {
+                    "addr": 4532,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceldistem_up1",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceldistem_up1"
+                },
+                {
+                    "addr": 4533,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceldistem_low3",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceldistem_low3"
+                },
+                {
+                    "addr": 4534,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceldistem_low2",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceldistem_low2"
+                },
+                {
+                    "addr": 4535,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceldistem_low1",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceldistem_low1"
+                },
+                {
+                    "addr": 4536,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelsoc_low3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelsoc_low3"
+                },
+                {
+                    "addr": 4537,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelsoc_low2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelsoc_low2"
+                },
+                {
+                    "addr": 4538,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelsoc_low1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelsoc_low1"
+                },
+                {
+                    "addr": 4539,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelsoc_up3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelsoc_up3"
+                },
+                {
+                    "addr": 4540,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelsoc_up2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelsoc_up2"
+                },
+                {
+                    "addr": 4541,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelsoc_up1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelsoc_up1"
+                },
+                {
+                    "addr": 4542,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_dif3",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_dif3"
+                },
+                {
+                    "addr": 4543,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_dif2",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_dif2"
+                },
+                {
+                    "addr": 4544,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clucelvol_dif1",
+                    "precision": 1,
+                    "set": "cluster_di_set_clucelvol_dif1"
+                },
+                {
+                    "addr": 4545,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceltem_dif3",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceltem_dif3"
+                },
+                {
+                    "addr": 4546,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceltem_dif2",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceltem_dif2"
+                },
+                {
+                    "addr": 4547,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluceltem_dif1",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluceltem_dif1"
+                },
+                {
+                    "addr": 4549,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_clu_posrelay",
+                    "precision": 1,
+                    "set": "cluster_di_set_clu_posrelay"
+                },
+                {
+                    "addr": 4550,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cluchgdisable",
+                    "precision": 1,
+                    "set": "cluster_di_set_cluchgdisable"
+                },
+                {
+                    "addr": 4551,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_cludisdisable",
+                    "precision": 1,
+                    "set": "cluster_di_set_cludisdisable"
+                },
+                {
+                    "addr": 4552,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_err2",
+                    "precision": 1,
+                    "set": "cluster_di_set_err2"
+                },
+                {
+                    "addr": 4553,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_di_get_err1",
+                    "precision": 1,
+                    "set": "cluster_di_set_err1"
+                }
+            ],
+            "hold_reg_info": [
+            ],
+            "input_reg_info": [
+                {
+                    "addr": 2350,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clusoc",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clusoc"
+                },
+                {
+                    "addr": 2351,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clusoh",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clusoh"
+                },
+                {
+                    "addr": 2352,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clustate",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clustate"
+                },
+                {
+                    "addr": 2353,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_ai_get_cluvol",
+                    "precision": 10,
+                    "set": "cluster_ai_set_cluvol"
+                },
+                {
+                    "addr": 2354,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_ai_get_clucur",
+                    "precision": 10,
+                    "set": "cluster_ai_set_clucur"
+                },
+                {
+                    "addr": 2355,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_ai_get_clumax_vol",
+                    "precision": 1000,
+                    "set": "cluster_ai_set_clumax_vol"
+                },
+                {
+                    "addr": 2356,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_ai_get_clumin_vol",
+                    "precision": 1000,
+                    "set": "cluster_ai_set_clumin_vol"
+                },
+                {
+                    "addr": 2357,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_ai_get_clumax_tmp",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumax_tmp"
+                },
+                {
+                    "addr": 2358,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_ai_get_clumin_tmp",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumin_tmp"
+                },
+                {
+                    "addr": 2359,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clumax_soc",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumax_soc"
+                },
+                {
+                    "addr": 2360,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clumin_soc",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumin_soc"
+                },
+                {
+                    "addr": 2362,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clumax_vol_no",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumax_vol_no"
+                },
+                {
+                    "addr": 2364,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clumin_vol_no",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumin_vol_no"
+                },
+                {
+                    "addr": 2366,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clumax_tmp_no",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumax_tmp_no"
+                },
+                {
+                    "addr": 2368,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clumin_tmp_no",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clumin_tmp_no"
+                },
+                {
+                    "addr": 2369,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clu_enchgcur",
+                    "precision": 10,
+                    "set": "cluster_ai_set_clu_enchgcur"
+                },
+                {
+                    "addr": 2370,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clu_endiscur",
+                    "precision": 10,
+                    "set": "cluster_ai_set_clu_endiscur"
+                },
+                {
+                    "addr": 2371,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_param_get_clucel_count",
+                    "precision": 1,
+                    "set": "cluster_param_set_clucel_count"
+                },
+                {
+                    "addr": 2372,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "cluster_param_get_clutem_count",
+                    "precision": 1,
+                    "set": "cluster_param_set_clutem_count"
+                },
+                {
+                    "addr": 2373,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_cludifvol",
+                    "precision": 1,
+                    "set": "cluster_ai_set_cludifvol"
+                },
+                {
+                    "addr": 2374,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "cluster_ai_get_clupow",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clupow"
+                },
+                {
+                    "addr": 2375,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clu_enchgpow",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clu_enchgpow"
+                },
+                {
+                    "addr": 2376,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "cluster_ai_get_clu_endispow",
+                    "precision": 1,
+                    "set": "cluster_ai_set_clu_endispow"
+                },
+                {
+                    "addr": 2377,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint32_t",
+                    "get": "cluster_ai_get_cluchg_volume",
+                    "precision": 1,
+                    "set": "cluster_ai_set_cluchg_volume"
+                },
+                {
+                    "addr": 2379,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint32_t",
+                    "get": "cluster_ai_get_cludis_volume",
+                    "precision": 1,
+                    "set": "cluster_ai_set_cludis_volume"
+                }
+            ],
+            "slave_id": 1
+        }
+    ]
+}

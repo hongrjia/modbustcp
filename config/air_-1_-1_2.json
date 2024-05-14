@@ -1,0 +1,421 @@
+{
+    "fmtVer": "V1.0.0",
+    "serviceId": "SJ202302180",
+    "slave_info": [
+        {
+            "array": -1,
+            "cluster": -1,
+            "coil_reg_info": [
+            ],
+            "dev": 2,
+            "dev_name": "air",
+            "discrete_input_reg_info": [
+                {
+                    "addr": 55235,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_di_get_alarm_14",
+                    "precision": 1,
+                    "set": "air_di_set_alarm_14"
+                },
+                {
+                    "addr": 55236,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_di_get_alarm_34",
+                    "precision": 1,
+                    "set": "air_di_set_alarm_34"
+                },
+                {
+                    "addr": 55237,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_di_get_alarm_35",
+                    "precision": 1,
+                    "set": "air_di_set_alarm_35"
+                },
+                {
+                    "addr": 55238,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_di_get_alarm_33",
+                    "precision": 1,
+                    "set": "air_di_set_alarm_33"
+                },
+                {
+                    "addr": 55239,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_di_get_alarm_3",
+                    "precision": 1,
+                    "set": "air_di_set_alarm_3"
+                },
+                {
+                    "addr": 55240,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_di_get_alarm_36",
+                    "precision": 1,
+                    "set": "air_di_set_alarm_36"
+                },
+                {
+                    "addr": 55241,
+                    "bais": 0,
+                    "callType": "di",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_di_get_alarm_37",
+                    "precision": 1,
+                    "set": "air_di_set_alarm_37"
+                }
+            ],
+            "hold_reg_info": [
+                {
+                    "addr": 55021,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_runcool_sta",
+                    "precision": 1,
+                    "set": "air_param_set_runcool_sta"
+                },
+                {
+                    "addr": 55022,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_runhot_sta",
+                    "precision": 1,
+                    "set": "air_param_set_runhot_sta"
+                },
+                {
+                    "addr": 55023,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_runstop_sta",
+                    "precision": 1,
+                    "set": "air_param_set_runstop_sta"
+                },
+                {
+                    "addr": 55024,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_runfan_sta",
+                    "precision": 1,
+                    "set": "air_param_set_runfan_sta"
+                },
+                {
+                    "addr": 55025,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_run_sta",
+                    "precision": 1,
+                    "set": "air_param_set_run_sta"
+                },
+                {
+                    "addr": 60047,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_cool_tmp",
+                    "precision": 1,
+                    "set": "air_param_set_cool_tmp"
+                },
+                {
+                    "addr": 60048,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_blacks_coldrtmp",
+                    "precision": 1,
+                    "set": "air_param_set_blacks_coldrtmp"
+                },
+                {
+                    "addr": 60049,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_hot_tmp",
+                    "precision": 1,
+                    "set": "air_param_set_hot_tmp"
+                },
+                {
+                    "addr": 60050,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_blacks_hotrtmp",
+                    "precision": 1,
+                    "set": "air_param_set_blacks_hotrtmp"
+                },
+                {
+                    "addr": 60051,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_wet",
+                    "precision": 1,
+                    "set": "air_param_set_wet"
+                },
+                {
+                    "addr": 60052,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_rwet",
+                    "precision": 1,
+                    "set": "air_param_set_rwet"
+                },
+                {
+                    "addr": 60053,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_blacks_stopwettmp",
+                    "precision": 1,
+                    "set": "air_param_set_blacks_stopwettmp"
+                },
+                {
+                    "addr": 60054,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_blacks_wettmp",
+                    "precision": 1,
+                    "set": "air_param_set_blacks_wettmp"
+                },
+                {
+                    "addr": 60055,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_blacks_hottmperr",
+                    "precision": 1,
+                    "set": "air_param_set_blacks_hottmperr"
+                },
+                {
+                    "addr": 60056,
+                    "bais": 0,
+                    "callType": "param",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_param_get_blacks_coldtmperr",
+                    "precision": 1,
+                    "set": "air_param_set_blacks_coldtmperr"
+                }
+            ],
+            "input_reg_info": [
+                {
+                    "addr": 55309,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_aicool_tmp",
+                    "precision": 10,
+                    "set": "air_ai_set_aicool_tmp"
+                },
+                {
+                    "addr": 55310,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_aiblacks_coldrtmp",
+                    "precision": 10,
+                    "set": "air_ai_set_aiblacks_coldrtmp"
+                },
+                {
+                    "addr": 55311,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_aiblacks_hottmperr",
+                    "precision": 10,
+                    "set": "air_ai_set_aiblacks_hottmperr"
+                },
+                {
+                    "addr": 55312,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "air_ai_get_aiblacks_coldtmperr",
+                    "precision": 10,
+                    "set": "air_ai_set_aiblacks_coldtmperr"
+                },
+                {
+                    "addr": 55313,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_aihot_tmp",
+                    "precision": 10,
+                    "set": "air_ai_set_aihot_tmp"
+                },
+                {
+                    "addr": 55314,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_aiblacks_hotrtmp",
+                    "precision": 10,
+                    "set": "air_ai_set_aiblacks_hotrtmp"
+                },
+                {
+                    "addr": 55315,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_air_wholerun",
+                    "precision": 1,
+                    "set": "air_ai_set_air_wholerun"
+                },
+                {
+                    "addr": 55316,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "int16_t",
+                    "get": "air_ai_get_air_tmp_sta",
+                    "precision": 10,
+                    "set": "air_ai_set_air_tmp_sta"
+                },
+                {
+                    "addr": 55317,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_air_wet_sta",
+                    "precision": 10,
+                    "set": "air_ai_set_air_wet_sta"
+                },
+                {
+                    "addr": 55318,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_lowwet_eliminate_tmp",
+                    "precision": 10,
+                    "set": "air_ai_set_lowwet_eliminate_tmp"
+                },
+                {
+                    "addr": 55319,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_lowwet_stop_tmp",
+                    "precision": 10,
+                    "set": "air_ai_set_lowwet_stop_tmp"
+                },
+                {
+                    "addr": 55320,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_lowwet_eliminate_wet",
+                    "precision": 10,
+                    "set": "air_ai_set_lowwet_eliminate_wet"
+                },
+                {
+                    "addr": 55321,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "float",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_lowwet_stop_wet",
+                    "precision": 10,
+                    "set": "air_ai_set_lowwet_stop_wet"
+                },
+                {
+                    "addr": 55322,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_air_sta",
+                    "precision": 1,
+                    "set": "air_ai_set_air_sta"
+                },
+                {
+                    "addr": 55323,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_air_coldsta",
+                    "precision": 1,
+                    "set": "air_ai_set_air_coldsta"
+                },
+                {
+                    "addr": 55324,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_air_hotsta",
+                    "precision": 1,
+                    "set": "air_ai_set_air_hotsta"
+                },
+                {
+                    "addr": 55325,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_air_infansta",
+                    "precision": 1,
+                    "set": "air_ai_set_air_infansta"
+                },
+                {
+                    "addr": 55326,
+                    "bais": 0,
+                    "callType": "ai",
+                    "dataapi_type": "int",
+                    "datatype": "uint16_t",
+                    "get": "air_ai_get_air_outfansta",
+                    "precision": 1,
+                    "set": "air_ai_set_air_outfansta"
+                }
+            ],
+            "slave_id": 1
+        }
+    ]
+}
